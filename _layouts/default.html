@@ -13,20 +13,16 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.name }}</a></h1>
+        <h1 class="name"><a href="{{ "/" | absolute_url }}">{{ site.name }}</a></h1>
 
         {% if site.avatar %}
         <a class="image avatar"><img src="{{site.avatar | relative_url}}" alt="avatar" /></a>
         {% endif %}
 
-        <p>{{ site.job }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+        <p class="job">{{ site.job }}</p>
 
         {% if site.email %}
-        <email><a href="mailto:{{ site.email }}"{{ site.email }}/></email>
+        <email class="email"><a href="mailto:{{ site.email }}"{{ site.email }}/></email>
         {% endif %}
 
         <div class="social-icons">
