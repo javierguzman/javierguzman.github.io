@@ -26,12 +26,12 @@
         {% endif %}
 
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <email><a href="mailto:{{ site.email }}"{{ site.email }}/></email>
         {% endif %}
 
         <div class="social-icons">
-          {% if site.cv_link %}
-          <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+          {% if site.cv_file %}
+          <a style="margin: 0 5px 0 0" href="{{ site.cv_file }}">
             <i class="ai ai-cv" style="font-size:1.3rem;"></i>
           </a>
           {% endif %}
