@@ -6,7 +6,7 @@ My main experience is in the embedded software domain, however, in 2020, I left 
 
 # Working right now
 
-* Nov - 2022 - Currently - Little Tribe - Android/IOS App to help families find other families with same interests
+* Nov - 2022 - Currently - Little Tribe - Android/IOS App to help families find affinity families with the same interests
 
 # Past Projects
 
