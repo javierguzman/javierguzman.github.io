@@ -22,16 +22,19 @@
   }
 }
 
-.name {
+.name,
+.job,
+.email,
+.footer {
   text-align: center;
 }
 
-.job {
-  text-align: center;
-}
-
-.email {
-  text-align: center;
+.footer {
+  padding: 20px;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
 }
 
 .social-icons a:last-child {

@@ -22,7 +22,7 @@
         <p class="job">{{ site.job }}</p>
 
         {% if site.email %}
-        <email class="email"><a href="mailto:{{ site.email }}"{{ site.email }}/></email>
+        <a class="email" href="mailto:{{ site.email }}"{{ site.email }}/>
         {% endif %}
 
         <div class="social-icons">
@@ -57,10 +57,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>2023</small></p>
+        <p class="footer"><small>2023</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
