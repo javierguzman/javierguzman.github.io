@@ -22,7 +22,9 @@
         <p class="job">{{ site.job }}</p>
 
         {% if site.email %}
-        <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <div>
+          <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
         {% endif %}
 
         <div class="social-icons">
