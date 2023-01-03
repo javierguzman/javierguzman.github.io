@@ -8,7 +8,7 @@ Currently living in Europe.
 
 # Working right now
 
-Nov - 2022 - Currently | **Little Tribe** | Android/iOS App to help families find affinity families with the same interests
+Nov. 2022 - Currently | **Little Tribe** | Android/iOS App to help families find affinity families with the same interests
 
 # Past Projects
 
