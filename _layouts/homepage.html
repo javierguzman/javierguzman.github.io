@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="name"><a href="{{ "/" | absolute_url }}">{{ site.name }}</a></h1>
+
+        {% if site.avatar %}
+        <a class="image avatar"><img src="{{site.avatar | relative_url}}" alt="avatar" /></a>
+        {% endif %}
+
+        <p class="job">{{ site.job }}</p>
+
+        {% if site.email %}
+        <div class="email">
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
+        {% endif %}
+
+        <div class="social-icons">
+          {% if site.cv_file %}
+          <a style="margin: 0 5px 0 0" href="{{ site.cv_file }}">
+            <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+          </a>
+          {% endif %}
+
+          {% if site.github %}
+          <a style="margin: 0 5px 0 0" href="{{ site.github }}">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+
+          {% if site.linkedin %}
+          <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+
+          {% if site.twitter %}
+          <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+            <i class="fab fa-twitter"></i>
+          </a>
+          {% endif %}
+          </div>
+      </header>
+      <section>
+
+        {{ content }}
+
+        <footer>
+          <p class="footer"><small>2023</small></p>
+        </footer>
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
