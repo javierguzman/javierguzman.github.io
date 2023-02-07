@@ -4,8 +4,14 @@
 @import "{{ site.theme }}";
 
 .content-wrapper {
-  width: 1024px;
-  margin: 0 auto;
+  // width: 1024px;
+  // margin: 0 auto;
+}
+
+section {
+  width:800px;
+  float:right;
+  padding-bottom:50px;
 }
 
 .social-icons a {
