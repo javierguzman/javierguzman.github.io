@@ -15,11 +15,20 @@
 }
 
 @media print, screen and (max-width: 960px) {
+  div.content-wrapper {
+    width:auto;
+    margin:0;
+  }
   .content-section {
     float:none;
     position:static;
     width:auto;
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
   }
+
 }
 
 .social-icons a {
