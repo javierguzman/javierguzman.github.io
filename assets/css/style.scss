@@ -14,6 +14,14 @@
   padding-bottom:50px;
 }
 
+@media print, screen and (max-width: 960px) {
+  .content-section {
+    float:none;
+    position:static;
+    width:auto;
+  }
+}
+
 .social-icons a {
   display: inline-block;
   height: 2.4rem;
