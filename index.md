@@ -8,8 +8,8 @@ Currently living in Europe.
 
 # Working right now
 
-Nov. 2022 - Currently | **Little Tribe**-[Google Play](https://play.google.com/store/apps/details?id=app.littletribe) | Android App to help families find affinity families with the same interests(iOS in future)
+Nov. 2022 - Currently | **Little Tribe**-[Google Play](https://play.google.com/store/apps/details?id=app.littletribe) | Android App to help families find affinity families with the same interests(iOS in future) | React-Native, Expo, Supabase (Postgresql)
 
 # Past Projects
 
-* [Kindoi Demo](https://www.youtube.com/watch?v=GEFlbBDr_Rw)
+* [Kindoi Demo](https://www.youtube.com/watch?v=GEFlbBDr_Rw) | Reactjs, Nodejs, Docker, Kubernetes, MongoDB, Redis, Google Cloud, Gitlab CI/CD, Nginx, Storybook, Jest, Redux, React-Query, Nextjs, Tailwind, Strapi
