@@ -12,4 +12,4 @@ Nov. 2022 - Currently | **Little Tribe**-[Google Play](https://play.google.com/s
 
 # Past Projects
 
-* [Kindoi Demo](https://www.youtube.com/watch?v=GEFlbBDr_Rw) | Reactjs, Nodejs, Docker, Kubernetes, MongoDB, Redis, Google Cloud, Gitlab CI/CD, Nginx, Storybook, Jest, Redux, React-Query, Nextjs, Tailwind, Strapi
+[Kindoi Demo](https://www.youtube.com/watch?v=GEFlbBDr_Rw) | Reactjs, Nodejs, Docker, Kubernetes, MongoDB, Redis, Google Cloud, Gitlab CI/CD, Nginx, Storybook, Jest, Redux, React-Query, Nextjs, Tailwind, Strapi
