@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+  width:1024px;
+  margin:0 auto;
+}
+
 .social-icons a {
   display: inline-block;
   height: 2.4rem;
