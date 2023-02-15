@@ -8,7 +8,7 @@ Currently living in Europe.
 
 # Working right now
 
-Nov. 2022 - Currently | [**Little Tribe**](https://www.littletribe.app) | Android App to help families find affinity families with the same interests(iOS in future) | React-Native, Expo, Supabase (Postgresql)
+Nov. 2022 - Currently | [Little Tribe](https://www.littletribe.app) | Android App to help families find affinity families with the same interests(iOS in future) | React-Native, Expo, Supabase (Postgresql)
 
 # Past Projects
 
