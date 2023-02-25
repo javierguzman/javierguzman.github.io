@@ -7,7 +7,7 @@ linkedin: https://www.linkedin.com/in/javierguzmanjimenez/
 twitter: https://twitter.com/javierguzmandev
 github: https://github.com/javierguzman
 cv_file: assets/files/cv.pdf
-avatar: assets/images/yo.jpg
+avatar: assets/images/yoReducido.jpg
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
